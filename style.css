@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+    background-color: #A5BECC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.small-container {
+    width: 70%;
+    height: 80vh;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1vmax;
+
+}
+
+.one-div {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font: 900 1vmax "montserrat";
+    padding: 4vmax 3vmax;
+    word-spacing: 2vmax;
+    color: gray;
+
+}
+
+.one-div>img {
+    width: 15%;
+}
+
+.main-div {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card11 {
+    width: 40%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+.details {
+    width: 40%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: start;
+}
+.details h1{
+    font: 600 1.5vmax "montserrat";
+
+}
+.details > .d-1{
+    display: flex;
+    flex-direction: column;
+    padding: 0vmax 2vmax;
+    text-align: start;
+
+}
+.d-1 > h6{
+    font: 700 0.7vmax "montserrat";
+    color: gray;
+}
+.d-1 > h5{
+    font: 700 1vmax "montserrat";
+    color: rgb(84, 84, 84);
+    letter-spacing: 3px;
+    margin-top: 0.5vmax;
+    text-align: center;
+}
+.details h5{
+    font: 700 1vmax "montserrat";
+    
+}
+.details button{
+    padding: 0.9vmax 9vmax;
+    font: 700 1vmax "montserrat";
+    letter-spacing: 5px;
+    border: none;
+    border-radius: 0.3vmax;
+    color: #FFF;
+    background-image: linear-gradient(45deg, #2b5cb9, #d83c78);
+}
+
+.details button:hover{
+    background-image: linear-gradient(45deg, #fefffe, #ffffff);
+    color: black;
+    border: 2px solid black;
+}
+.datee{
+    width: 55%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.datee h6{
+    font: 700 0.7vmax "montserrat";
+    color: gray;
+
+}
+.datee h5{
+    font: 700 0.9vmax "montserrat";
+    color: gray;
+    margin-top: 0.7vmax;
+
+}
+
+
+
+
+
+
+ .card {
+    width: 900px;
+    height: 550px;
+    cursor: pointer;
+
+
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.front {
+    width: 28%;
+    height: 32%;
+    background-image: linear-gradient(45deg, #0045c7, #ff2c7d);
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 1vmax;
+    padding: 2vmax 2vmax;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 19vmax;
+    margin-top: 18vmax;
+
+
+}
+
+.map-img {
+    width: 100%;
+    height: 90%;
+    opacity: 0.3;
+    position: absolute;
+    margin-top: 0.5vmax;
+
+}
+
+.row {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.num {
+    color: #FFF;
+    font: 600 2vmax "voyage";
+    letter-spacing: 4px;
+
+}
+
+.name {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFF;
+    font: 700 0.6vmax "montserrat";
+}
+
+.date {
+
+     font: 900 0.6vmax "montserrat"; 
+}
+
+.name-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFF;
+    font: 600 1vmax "montserrat";
+    letter-spacing: 4px;
+}
+
